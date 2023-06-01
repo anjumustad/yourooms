@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+footer{
+    background-color: #111;
+}
+.footcontainer{
+    width: 50px;
+    padding: 50px 20px 10px;
+}
+.socialicons{
+    display: flex;
+    justify-content: center;
+}
+.socialicons a{
+    text-decoration: none;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    margin: 1px;
+    border-radius: 60%;
+}
+.socialicons a i{
+    font-size: 2em;
+    color:black;
+    opacity: 0.9s;
+}
+.socialicons a i:hover{
+    background-color: #111;
+    transition: 0.3s;
+    
+}
+.socialicons a i:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.divfooter{
+    margin: 30px 0;
+}
+.divfooter ul {
+    display: flex;
+    justify-content: center;
+}
+.divfooter ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.divfooter ul li a:hover{
+    opacity: 1;
+}
+.divfooterbootom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.divfooterbootom p{
+    color: wheat;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+

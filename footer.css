@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #232526;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #754141, #2c6d8e);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #583636, #683378);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 20px;
+}
+
+.icon svg{
+   margin-top: 18px;
+}
+.white{
+    color: white;
+}
+
+.main{
+    margin-top: 50px;
+}
+.main ul{
+    display: flex;
+    list-style: none;
+}
+
+.main ul li a{
+    text-decoration: none;
+    color: rgba(248, 248, 248, 0.736);
+    margin: 30px;
+}
+.copyright{
+    margin: 50px;
+    color: rgba(240, 248, 255, 0.679);
+}

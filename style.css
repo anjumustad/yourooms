@@ -1,0 +1,145 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(97, 11, 96, 0.342),rgba(0, 0, 0, 0.65)),url(back2.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 3%;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.logo{
+    width: 180px;
+    cursor: pointer;
+}
+nav ul{
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    background: #f5168d;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 120px;
+    text-align: right;
+}
+.btn img{
+    width: 25px;
+    margin-right: 10px;
+}
+.content{
+    margin-top: 14%;
+    color: #fff;
+    width: 100%s;
+    display: flex;
+    justify-content: space-between;
+}
+.content h1{
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 85px;
+    margin-bottom: 25px;
+    
+}
+.btn2{
+    padding: 10px 15px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    background: #f5168d;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 3px;
+    width: 100px;
+    text-align: center;
+}
+.flex{
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+svg{
+    color: #f5168d;
+}
+.text-white{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+}
+.btn3
+{
+    padding: 10px 15px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    background: #f5168d;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 3px;
+    width: 100px;
+    text-align: center;
+    
+}
+.btn3:hover{
+    color: black;
+    transition: 0.8s;
+}
+.btn2:hover
+{
+color: black;
+    transition: 0.8s;
+}
+.btn:hover{
+    color: black;
+    transition: 0.8s;
+}
+.text-white:hover{
+    color: rgb(0, 0, 0);
+    transition: 1.0s;
+}
+.room-img{
+    text-align: center;
+    border-radius: 10px;
+    margin: 0px 1opx 0px 0px;
+}
+
+@media only screen and (max-width: 800px) {
+    .content{
+        flex-direction: column;
+    }
+}
